@@ -6,3 +6,6 @@ engine = pyttsx3.init()
 
 engine.say("Hey this is the example of external module using python which is from thirdparty you need to create the virutal env for the running of these externa modules bcz it defines the workspace of the python")
 engine.runAndWait()
+import pyjokes
+_joke=pyjokes.get_joke()
+print(_joke)
