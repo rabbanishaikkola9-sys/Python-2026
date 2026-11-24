@@ -1,0 +1,15 @@
+li=[1,2,3,'rabbani',True,None]
+print(type(li),len(li),li)
+li.append('rehaan')
+print(li)
+li2=[5,6,2,8,7,1]
+li2.sort()
+print(li2)
+li2.reverse()
+print(li2)
+li.insert(0,9)
+print(li)
+li.pop(0) # popouts it by its index (using index value )
+li.remove('rabbani') # removes it by value (using the original element rather than value )
+print(li)
+# li.pop(3)

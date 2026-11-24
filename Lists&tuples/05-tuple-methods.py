@@ -1,0 +1,11 @@
+t=(1,2,3,3,'rabbani',True)
+print(t)
+no=t.count(3)
+print(no)
+print(t.index('rabbani'))
+print(2 in t)
+print(33 in t)
+print(type(t),len(t))
+t=(1,2,3)
+a,b,c=t # tuple assignment can assign multiple values to the multiple elements
+print(a,b,c)
